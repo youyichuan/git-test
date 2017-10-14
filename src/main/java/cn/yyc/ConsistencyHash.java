@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * 一致性Hash，每添加一个节点会产生64个虚拟节点
+ * 一致性Hash，每添加一个节点会产生64个虚拟节点（版本控制）
  * Created by Administrator on 2017/9/23.
  */
 public class ConsistencyHash {
